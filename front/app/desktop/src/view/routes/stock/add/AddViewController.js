@@ -18,4 +18,10 @@ Ext.define("GestionStockApp.view.stock.AddViewController", {
     const ctrl = form.up("mainview").getController();
     ctrl.redirectTo("stock_list", true);
   },
+
+  onCancel: function () {
+    // redirect
+    const ctrl = this.getView().up("mainview").getController();
+    ctrl.redirectTo("stock_list", true);
+  },
 });

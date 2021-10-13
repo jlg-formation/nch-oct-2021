@@ -17,6 +17,7 @@ Ext.define("GestionStockApp.view.routes.stock.AddView", {
       controller: "stock_addviewcontroller",
       buttons: {
         submit: "onSubmit",
+        cancel: "onCancel",
       },
       items: [
         {
