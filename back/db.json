@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "id": "a1",
+      "name": "Tournevis",
+      "price": 2.99,
+      "qty": 100
+    },
+    {
+      "id": "a2",
+      "name": "Pince",
+      "price": 1.5,
+      "qty": 230
+    },
+    {
+      "id": "a3",
+      "name": "Pelle",
+      "price": 3.45,
+      "qty": 110
+    },
+    {
+      "id": "a4",
+      "name": "Ecrous",
+      "price": 5,
+      "qty": 120
+    },
+    {
+      "name": "truc",
+      "price": 1.12,
+      "qty": 20,
+      "id": "vqJeB7I"
+    },
+    {
+      "id": "sMFES4f"
+    },
+    {
+      "name": "Machine",
+      "price": 45.89,
+      "qty": 230,
+      "id": "79oWJmD"
+    }
+  ]
+}

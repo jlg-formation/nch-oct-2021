@@ -1,3 +1,5 @@
+console.log(Ext.ClassManager.aliasToName);
+
 Ext.define("GestionStockApp.Application", {
   extend: "Ext.app.Application",
   name: "GestionStockApp",
