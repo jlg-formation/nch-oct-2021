@@ -9,12 +9,27 @@
     },
   });
 
+  Ext.define("CounterViewController", {
+    extend: "Ext.app.ViewController",
+    alias: "controller.counterviewcontroller",
+
+    increment: function () {
+      console.log("this: ", this);
+      const vm = this.getViewModel();
+      console.log("vm: ", vm);
+      const counter = +vm.get("counter");
+      const newCounter = counter + 1;
+      vm.set("counter", newCounter + "");
+    },
+  });
+
   Ext.define("CounterView", {
     extend: "Ext.Container",
     xtype: "counterview",
     viewModel: {
       type: "counterviewmodel",
     },
+    controller: "counterviewcontroller",
     items: [
       {
         xtype: "label",
@@ -25,14 +40,7 @@
       {
         xtype: "button",
         text: "increment counter",
-        handler: function () {
-          console.log("this: ", this);
-          const vm = this.up("counterview").getViewModel();
-          console.log("vm: ", vm);
-          const counter = +vm.get("counter");
-          const newCounter = counter + 1;
-          vm.set("counter", newCounter + "");
-        },
+        handler: "increment",
       },
     ],
   });
