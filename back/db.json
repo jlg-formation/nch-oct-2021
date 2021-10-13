@@ -13,6 +13,20 @@
       "qty": 0,
       "truc": "",
       "id": 2
+    },
+    {
+      "name": "qqqqqq",
+      "price": 2,
+      "qty": 12,
+      "truc": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "price": 0,
+      "qty": 0,
+      "truc": "",
+      "id": 4
     }
   ]
 }
