@@ -52,7 +52,7 @@ Ext.define("GestionStockApp.view.routes.stock.ListView", {
 
           reference: "articleGrid",
 
-          store: Ext.create("GestionStockApp.store.Articles"),
+          store: "Articles",
           columnLines: true,
 
           selectable: {

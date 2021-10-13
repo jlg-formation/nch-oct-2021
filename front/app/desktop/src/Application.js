@@ -1,10 +1,17 @@
 console.log(Ext.ClassManager.aliasToName);
 
+Ext.require("Ext.form.Panel");
+Ext.require("Ext.field.Spinner");
+Ext.require("Ext.Responsive");
+Ext.require("Ext.plugin.*");
+
 Ext.define("GestionStockApp.Application", {
   extend: "Ext.app.Application",
   name: "GestionStockApp",
   requires: ["GestionStockApp.*"],
   defaultToken: "home",
+  models: ["Article"],
+  stores: ["Articles"],
 
   removeSplash: function () {
     Ext.getBody().removeCls("launching");
