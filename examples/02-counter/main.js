@@ -42,6 +42,14 @@
         text: "increment counter",
         handler: "increment",
       },
+      {
+        xtype: "numberfield",
+        name: "counter",
+        fieldLabel: "Mon compteur",
+        bind: {
+          value: "{counter}",
+        },
+      },
     ],
   });
 
