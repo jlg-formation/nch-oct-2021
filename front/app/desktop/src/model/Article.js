@@ -3,6 +3,7 @@ Ext.define("GestionStockApp.model.Article", {
 
   fields: [
     { name: "id", type: "string" },
+    { name: "truc", type: "string" },
     { name: "name", type: "string" },
     { name: "price", type: "float" },
     { name: "qty", type: "int" },
@@ -23,7 +24,7 @@ Ext.define("GestionStockApp.model.Article", {
           delete data.id;
           return data;
         }
-
+        console.log("data: ", data);
         return data;
       },
     },

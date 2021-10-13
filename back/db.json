@@ -1,95 +1,18 @@
 {
   "articles": [
     {
-      "id": "a1",
-      "name": "Tournevis",
-      "price": 2.99,
-      "qty": 100
-    },
-    {
-      "id": "a2",
-      "name": "Pince",
-      "price": 1.5,
-      "qty": 230
-    },
-    {
-      "name": "aaa",
-      "price": 12,
-      "qty": 13,
-      "id": "LbEMO3M"
-    },
-    {
       "name": "qqq",
-      "price": 12,
-      "qty": 13,
-      "id": "klpOPKK"
-    },
-    {
-      "name": "Tournevisqqq",
-      "price": 0,
-      "qty": 0,
-      "id": "Wr0suh8"
-    },
-    {
-      "name": "qwqwqw",
-      "price": 0,
-      "qty": 0,
-      "id": "r6GGQjL"
-    },
-    {
-      "name": "aaaa",
-      "price": 0,
-      "qty": 0,
-      "id": "EE_t9Fe"
-    },
-    {
-      "name": "",
-      "price": 0,
-      "qty": 0,
-      "id": "pFJP2O0"
-    },
-    {
-      "name": "",
-      "price": 0,
-      "qty": 0,
-      "id": "MwWS2PZ"
-    },
-    {
-      "name": "gggg",
-      "price": 12,
-      "qty": 13,
-      "id": "kQj9fr5"
-    },
-    {
-      "name": "",
-      "price": 0,
-      "qty": 0,
-      "id": "wrz5fZI"
-    },
-    {
-      "name": "truc",
-      "price": 13,
-      "qty": 14,
-      "id": "vO82PKL"
-    },
-    {
-      "name": "eee",
-      "price": 14,
-      "qty": 15,
-      "id": "49yt-Ah"
-    },
-    {
-      "name": "",
-      "price": 0,
-      "qty": 0,
-      "id": "txTQeEy"
-    },
-    {
-      "name": "",
       "price": 0,
       "qty": 0,
       "truc": "",
-      "id": "eiix-Ai"
+      "id": 1
+    },
+    {
+      "name": "aaa",
+      "price": 0,
+      "qty": 0,
+      "truc": "",
+      "id": 2
     }
   ]
 }
