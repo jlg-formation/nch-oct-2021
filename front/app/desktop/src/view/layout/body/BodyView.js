@@ -6,5 +6,11 @@ Ext.define("GestionStockApp.view.layout.body.BodyView", {
     animation: {
       type: "flip",
     },
+    listeners: {
+      activeitemchange: function (...args) {
+        console.log("activeitemchange args: ", args);
+        console.log("this: ", this);
+      },
+    },
   },
 });

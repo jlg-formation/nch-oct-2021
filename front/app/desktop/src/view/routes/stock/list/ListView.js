@@ -28,9 +28,27 @@ Ext.define("GestionStockApp.view.routes.stock.ListView", {
             {
               xtype: "button",
               text: "Ajouter",
-              handler: function () {
-                const ctrl = this.up("mainview").getController();
-                ctrl.redirectTo("stock_add", true);
+              controller: Ext.create("Ext.app.ViewController", {
+                init: function () {
+                  console.log("init btn ctrl");
+                  const view = this.getView();
+                  console.log("view: ", view);
+                  view.el.dom.addEventListener("mouseover", () => {
+                    console.log("mouseover");
+                    view.fireEvent("mymouseover", this, "hello");
+                  });
+                },
+              }),
+              listeners: {
+                tap: function () {
+                  console.log("tap");
+                  const ctrl = this.up("mainview").getController();
+                  ctrl.redirectTo("stock_add", true);
+                },
+                mymouseover: function (...args) {
+                  console.log("coucou mymouseover", this);
+                  console.log("args: ", args);
+                },
               },
             },
             {
